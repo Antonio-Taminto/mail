@@ -1,17 +1,17 @@
-package com.mail;
+package com.mail.DTO;
 
-public class Mail {
+public class EmailRequest {
     private String to;
     private String subject;
     private String text;
 
-    public Mail(String subject, String text, String to) {
+    public EmailRequest(String subject, String text, String to) {
         this.subject = subject;
         this.text = text;
         this.to = to;
     }
 
-    public Mail() {
+    public EmailRequest() {
     }
 
     public String getSubject() {
